@@ -1,0 +1,899 @@
+; vim:ft=dosini
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;			COLOURS			    ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[colors]
+background = ${xrdb:background}
+foreground = ${xrdb:foreground}
+
+colour1 = ${xrdb:color1:#00FF00}
+colour2 = ${xrdb:color2:#00FF00}
+colour3 = ${xrdb:color3:#00FF00}
+colour4 = ${xrdb:color4:#00FF00}
+colour5 = ${xrdb:color5:#00FF00}
+colour6 = ${xrdb:color6:#00FF00}
+colour7 = ${xrdb:color7:#00FF00}
+colour8 = ${xrdb:color8:#00FF00}
+colour9 = ${xrdb:color9:#00FF00}
+colour10 = ${xrdb:color10:#00FF00}
+colour11 = ${xrdb:color11:#00FF00}
+colour12 = ${xrdb:color12:#00FF00}
+colour13 = ${xrdb:color13:#00FF00}
+colour14 = ${xrdb:color14:#00FF00}
+colour15 = ${xrdb:color15:#00FF00}
+
+red = #FF0000
+green = #00FF00
+blue = #00FF00
+white = #FFFFFF
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	Global WM settings
+
+[global/wm]
+; Adjust the _NET_WM_STRUT_PARTIAL top value
+; Used for top aligned bars
+margin-bottom = 0
+
+; Adjust the _NET_WM_STRUT_PARTIAL bottom value
+; Used for bottom aligned bars
+margin-top = 100
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	BAR_LEFT
+
+[bar/left]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+; Bar Display Settings
+monitor = HDMI-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = true
+
+width = 500
+height = 25
+offset-x = 65%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = #000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = IBM\ 3270:size=12;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = Monospace:style=Regular:pixelsize=17;0
+font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=24;0
+
+; Module Settings
+modules-left = endcapleft
+modules-center = cpu spacer memory
+modules-right = endcapright
+
+separator = 
+spacing = 2
+; dim-value = 0.8
+
+wm-name = i3
+
+; tray-position = 
+; tray-detached = false
+; tray-maxsize = 16
+; tray-transparent = false
+; tray-background = 
+; tray-offset-x = 0
+; tray-offset-y = 0
+
+; tray-padding = 0
+; tray-scale = 1.0
+; enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	BAR_MAIN
+
+[bar/main]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+; Bar Display Settings
+monitor = DVI-D-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = true
+
+width = 700
+height = 25
+offset-x = 10%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = #000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+; font-0 = Nimbus\ Sans:size=12;1
+font-0 = xos4\ Terminess\ Powerline:size=14;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
+font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=10;0
+
+; Module Settings
+modules-left = endcapleft
+modules-center = i3
+modules-right = endcapright
+
+separator = 
+spacing = 2
+; dim-value = 0.8
+
+wm-name = i3
+
+; tray-position = 
+; tray-detached = false
+; tray-maxsize = 16
+; tray-transparent = false
+; tray-background = 
+; tray-offset-x = 0
+; tray-offset-y = 0
+
+; tray-padding = 0
+; tray-scale = 1.0
+; enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	BAR_RIGHT
+
+[bar/right]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+; Bar Display Settings
+monitor = DP-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = true
+
+width = 600
+height = 25
+offset-x = 10%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = 000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = xos4\ Terminess\ Powerline:size=14;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
+font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=10;0
+
+; Module Settings
+modules-left = endcapleft
+modules-center = network spacer filesystem
+modules-right = endcapright
+separator = 
+spacing = 2
+; dim-value = 0.8
+
+wm-name = i3
+
+tray-position = 
+tray-detached = false
+tray-maxsize = 16
+tray-transparent = false
+tray-background = ${env:BACK_COL}
+tray-offset-x = 0
+tray-offset-y = 0
+
+tray-padding = 0
+tray-scale = 1.0
+enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	VOLUME BAR
+
+[bar/vol_bar]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+; Bar Display Settings
+monitor = DVI-D-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = true
+
+width = 250
+height = 25
+offset-x = 80%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = ${colors.foreground}
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = IBM\ 3270:size=12;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = Monospace:style=Regular:pixelsize=17;0
+font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=24;0
+
+; Module Settings
+modules-left = endcapleft
+modules-center = pulseaudio
+modules-right = endcapright
+separator = 
+spacing = 0
+; dim-value = 0.8
+
+wm-name = i3
+
+tray-position = 
+tray-detached = false
+tray-maxsize = 16
+tray-transparent = false
+tray-background = ${env:BACK_COL}
+tray-offset-x = 0
+tray-offset-y = 0
+
+tray-padding = 0
+tray-scale = 1.0
+enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	TIME_BAR - LEFT
+
+[bar/time_bar_left]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+; Bar Display Settings
+monitor = HDMI-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = true
+
+width = 300
+height = 25
+offset-x = 10%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = 000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = xos4\ Terminess\ Powerline:size=14;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
+font-4 = font-logos:pixelsize=17;4
+
+; Module Settings
+modules-left = endcapleft
+modules-center = date
+modules-right = endcapright
+separator = 
+spacing = 0
+; dim-value = 0.8
+
+wm-name = i3
+
+tray-position = 
+tray-detached = false
+tray-maxsize = 16
+tray-transparent = false
+tray-background = ${env:BACK_COL}
+tray-offset-x = 0
+tray-offset-y = 0
+
+tray-padding = 0
+tray-scale = 1.0
+enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	TIME_BAR - MAIN
+
+[bar/time_bar_main]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+
+; Bar Display Settings
+monitor = DVI-D-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = true
+
+width = 300
+height = 25
+offset-x = 10%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = 000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = xos4\ Terminess\ Powerline:size=14;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
+font-4 = font-logos:pixelsize=17;4
+
+; Module Settings
+modules-left = endcapleft
+modules-center = date
+modules-right = endcapright
+separator = 
+spacing = 0
+; dim-value = 0.8
+
+wm-name = i3
+
+tray-position = 
+tray-detached = false
+tray-maxsize = 16
+tray-transparent = false
+tray-background = ${env:BACK_COL}
+tray-offset-x = 0
+tray-offset-y = 0
+
+tray-padding = 0
+tray-scale = 1.0
+enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	TIME_BAR - RIGHT
+
+[bar/time_bar_right]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+
+; Bar Display Settings
+monitor = DP-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = true
+fixed-center = false
+
+width = 300
+height = 25
+offset-x = 10%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = 000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = xos4\ Terminess\ Powerline:size=14;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
+font-4 = font-logos:pixelsize=17;4
+
+; Module Settings
+modules-left = endcapleft
+modules-center = date
+modules-right = endcapright
+separator = 
+spacing = 10
+; dim-value = 0.8
+
+wm-name = i3
+
+tray-position = 
+tray-detached = false
+tray-maxsize = 16
+tray-transparent = false
+tray-background = ${env:BACK_COL}
+tray-offset-x = 0
+tray-offset-y = 0
+
+tray-padding = 0
+tray-scale = 1.0
+enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	ENDCAP - LEFT
+
+[module/endcapleft]
+type = custom/text
+
+content = ""
+content-font = 4
+content-foreground = ${env:BACK_COL}
+content-background = #00000000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	ENDCAP - RIGHT
+
+[module/endcapright]
+type = custom/text
+
+content = ""
+content-font = 4
+content-foreground = ${env:BACK_COL}
+content-background = #00000000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	SPACER
+
+[module/spacer]
+type = custom/text
+
+content = "    "
+content-font = 4
+content-foreground = ${colors.colour5}
+content-background = ${env:BACK_COL}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	MODULE: FILESYSTEM
+
+[module/filesystem]
+type = internal/fs
+mount-0 = /
+mount-1 = /home
+
+inteval = 10
+fixed-values = true
+spacing = 4
+
+format-mounted = <label-mounted>
+label-mounted = ${env:FILE_LABEL}
+label-mounted-foreground = ${colors.colour5}
+
+format-unmounted = <label-unmounted>
+label-unmounted = %mountpoint%: not mounted
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	MODULE: i3
+
+[module/i3]
+; Colours
+background = ${colors.foreground}
+foreground = ${colors.background}
+
+; Settings
+type = internal/i3
+pin-workspaces = false
+strip-wsnumbers = true
+index-sort = true
+enable-click = true
+enable-scroll = true
+wrapping-scrolling = true
+reverse-scroll = true
+fuzzy-match = false
+
+ws-icon-0 = 
+ws-icon-1 = 
+ws-icon-2 = 
+ws-icon-3 = 
+ws-icon-4 = 
+ws-icon-5 = 
+ws-icon-6 = 
+ws-icon-7 = 
+ws-icon-8 = 
+ws-icon-9 = 
+ws-icon-10 = 
+
+format = <label-state> <label-mode>
+label-mode = %mode%
+label-mode-padding = 2
+label-mode-background = #e60053
+
+; Focused
+label-focused = %icon% %name%
+label-focused-foreground = #FFFFFF
+label-focused-background = ${colors.colour9}
+label-focused-underline = ${colors.colour4}
+label-focused-padding = 2
+
+; Unfocused
+label-unfocused = %icon% %name%
+label-unfocused-foreground = ${colors.colour2}
+label-unfocused-background = #cc000000
+label-unfocused-underline = 
+label-unfocused-padding = 2
+
+; Visible
+label-visible = %icon% %name%
+label-visible-foreground = ${colors.colour2}
+label-visible-background = #cc000000
+label-visible-underline-size = 10
+label-visible-underline = ${colors.colour4}
+label-visible-padding = 2
+
+; Urgent
+label-urgent = %icon% %name%
+label-urgent-foreground = #aaff77
+label-urgent-background = #aaff77
+label-urgent-underline =
+label-urgent-padding = 2
+
+label-separator =
+label-separator-padding =
+label-separator-foreground =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	CPU
+
+[module/cpu]
+
+; Settings
+type = internal/cpu
+interval = 0.5
+
+format = <label> <ramp-coreload>
+label = ${env:CPU_LABEL}
+label-foreground = ${colors.colour3}
+
+ramp-coreload-0 = ▁
+ramp-coreload-0-font = 3
+ramp-coreload-0-foreground = ${colors.colour2}
+ramp-coreload-1 = ▂
+ramp-coreload-1-font = 3
+ramp-coreload-1-foreground = ${colors.colour2}
+ramp-coreload-2 = ▃
+ramp-coreload-2-font = 3
+ramp-coreload-2-foreground = ${colors.colour3}
+ramp-coreload-3 = ▄
+ramp-coreload-3-font = 3
+ramp-coreload-3-foreground = ${colors.colour3}
+ramp-coreload-4 = ▅
+ramp-coreload-4-font = 3
+ramp-coreload-4-foreground = ${colors.colour3}
+ramp-coreload-5 = ▆
+ramp-coreload-5-font = 3
+ramp-coreload-5-foreground = ${colors.colour1}
+ramp-coreload-6 = ▇
+ramp-coreload-6-font = 3
+ramp-coreload-6-foreground = ${colors.colour1}
+ramp-coreload-7 = █
+ramp-coreload-7-font = 3
+ramp-coreload-7-foreground = ${colors.colour1}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	Temperatures
+
+[module/temperature]
+
+type = internal/temperature
+
+; Seconds to sleep between updates
+interval = 0.5
+
+; Thermal zone to use
+thermal-zone = 0
+
+; Full path of temperature sysfs path
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
+
+warn-temperature = 60
+units = true
+
+format = <ramp> <label>
+
+format-warn = <ramp> <label-warn>
+
+label = %temperature%
+
+label-warn = TEMP %temperature%
+label-warn-foreground = #f00
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 =  
+ramp-0-foreground = #00FF00
+ramp-1-foreground = #FFA500
+ramp-2-foreground = #FF0000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	DATE
+
+[module/date]
+
+; Colours
+
+; Settings
+type = internal/date
+interval = 1.0
+
+date = %d-%m-%Y
+time =  %I:%M %p%
+
+;date-alt = %%{F#fff}%A, %d %B %Y
+;time-alt =  %%{F#fff}%H:%M%%{F#666}:%%{F#fba922}%S%%{F-}
+
+format = <label>
+format-background =
+format-foreground = ${colors.colour3} 
+
+label = ${env:DATE_LABEL}
+; export DATE_LABEL="%date% %{F$color3}%time%%{F-}"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	MEMORY
+
+[module/memory]
+
+; Settings
+type = internal/memory
+interval = 1.0
+format = <label> <bar-used>
+label = ${env:MEM_LABEL}
+label-foreground = ${colors.colour3}
+
+bar-used-width = 10
+bar-used-foreground-0 = ${colors.colour2}
+bar-used-foreground-1 = ${colors.colour2}
+bar-used-foreground-2 = ${colors.colour3}
+bar-used-foreground-3 = ${colors.colour1}
+
+bar-used-indicator = 
+
+bar-used-fill = ▰
+bar-used-fill-font = 6
+
+bar-used-empty = ▱
+bar-used-empty-font = 6
+bar-used-empty-foreground = #444444
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	NETWORK
+
+[module/network]
+
+; Settings
+type = internal/network
+interface = enp0s31f6
+interval = 1.0
+
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+label-connected = ${env:NET_LABEL}
+label-connected-foreground = ${colors.colour3}
+label-connected-font = 6
+
+label-disconnected = 🖧  no connection
+label-disconnected-foreground = #66
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	PULSEAUDIO
+
+[module/pulseaudio]
+; Colours
+background = ${colors.foreground}
+foreground = ${colors.background}
+
+; Settings
+type = internal/pulseaudio
+sink = bluez_sink.E4_22_A5_2F_FA_42.a2dp_sink
+
+format-volume = <label-volume> <bar-volume>
+label-volume = ${env:PULSE_LABEL}
+label-volume-foreground = ${colors.colour3}
+label-volume-font = 0
+
+label-muted = muted
+label-muted-foreground = ${colors.red}
+
+bar-volume-width = 10
+bar-volume-foreground-0 = ${colors.colour2}
+bar-volume-foreground-1 = ${colors.colour2}
+bar-volume-foreground-2 = ${colors.colour3}
+bar-volume-foreground-3 = ${colors.colour1}
+bar-volume-indicator =
+
+bar-volume-fill =  "▰"
+bar-volume-fill-font = 4
+
+bar-volume-empty =  "▱"
+bar-volume-empty-font = 4
+bar-volume-empty-foreground = #444444
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	MPD
+
+[module/mpd]
+type = internal/mpd
+host = localhost
+port = 6600
+interval = 1
+
+format-online = <icon-prev> <icon-stop> <toggle> <icon-next>  | <icon-random>  <bar-progress> <label-time>  <label-song>
+format-online-foreground = ${colors.colour1}
+
+label-song = 🎜 %artist% - %{F#99}%album%: %title%%{F-}
+label-song-foreground = ${colors.colour3}
+
+label-time = %elapsed% / %total%
+label-time-foreground = #99
+
+format-offline = <label-offline>
+format-offline-foreground = ${colors.colour4}
+
+label-offline = 🎜 mpd is offline
+
+icon-font = 5
+icon-play = 
+icon-pause = 
+icon-stop = 
+icon-prev = 
+icon-next = 
+icon-random =  
+
+toggle-on-foreground = #FFFFFF
+toggle-off-foreground = #55
+
+bar-progress-width = 20
+bar-progress-indicator = |
+bar-progress-indicator-foreground = ${colors.colour3}
+bar-progress-fill = ─
+bar-progress-empty = ─
+
+; vim:ft=dosini

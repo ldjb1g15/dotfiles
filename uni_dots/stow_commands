@@ -1,0 +1,11 @@
+
+
+# bash files
+stow -t ~ bash
+
+# X11
+stow -t ~ X11
+
+# vim home
+stow -t ~ vim
+
