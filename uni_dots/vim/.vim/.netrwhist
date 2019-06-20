@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/ldjb/codebase/git_dir/.git'
-let g:netrw_dirhist_2='/home/ldjb/codebase/sensitivity_study_archive/distances'
-let g:netrw_dirhist_3='/home/ldjb/codebase/git_dir/python/geom_generation'
-let g:netrw_dirhist_4='/home/ldjb/codebase/data_archive/paper_data/case_files/file_generation'
-let g:netrw_dirhist_5='/home/ldjb/codebase/git_dir/.git'
-let g:netrw_dirhist_6='/home/ldjb/codebase/data_archive/paper_data/case_files/bulk_run'
-let g:netrw_dirhist_7='/home/ldjb/codebase/git_dir/python/venv'
-let g:netrw_dirhist_8='/home/ldjb/PhD/Reports/Journals/elsearticle_template_example/elsarticle'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/ldjb/codebase/git_dir/python/geom_generation/test.py'
