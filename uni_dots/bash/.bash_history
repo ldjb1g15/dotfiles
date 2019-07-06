@@ -1,500 +1,519 @@
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-ls -la
-ls -la
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-python3 glim_render_orb.py 
-glim
-ls
-cd ../geom_generation/
-ls
-vim test.py 
-mv test.py cylinder_gen.py
-glim
-vim tools/functions/functions_transform.py 
-vim hilbert_analysis.py 
-glim
-vim tools/functions/functions_transform.py 
-cd ../geom_generation/
-ls
-glim
-ls -la
-cd tools/
-ls -la
-vim output_parse.py 
 cd ..
 ls
-vim hilbert_analysis.py 
-ls -la
-vim tools/distance_plotter_combined.py 
-vim tools/geom_plotter.py 
-vim ../geom_generation/cylinder_gen.py 
+cd MATLAB/
 ls
+rm Code.zip 
+cd Code/
+ls
+cd ..
+ls
+hilbert_testing.py
+vim hilbert_testing.py
+glim
+ls
+vim fouirer_testing.py
+glim
+git status
+shutdown now
+startx
+shutdown now
+glim
+pyenv
+ls -la
+python3 hilbert_analysis.py 
+python3 f
+python3 fouirer_testing.py 
+python3 tools/output_parse.py 
+python3 fouirer_testing.py 
+python3 fouirer_testing.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+glim
+pyenv
+pyenv
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+glim
 vim tools/output_parse.py 
-ls
-vim tools/distance_plotter_combined.py 
+vim tools/functions/functions_list.py 
 glim
+vim tools/functions/horizons_interface.py 
+glim
+pyenv
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+nvals
+nvals
+nvals
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 access_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+python3 observatory_GLIMMA.py 
+glim
+pyenv
+python3 hilbert_analysis.py 
+python3 front_casefile_GLIMMA.py 
+python3 hilbert_analysis.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 batch_gen_phase.py 
+python3 batch_gen_phase.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 tools/output_parse.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+[A
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 front_casefile_GLIMMA.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+python3 hilbert_analysis.py 
+cd /home/ldjb/codebase/data_archive/GLIMMA_data/pos_dir/
+ls
+rm *.txt horz_dir/*.txt sgp4_dir/sgp4_data.txt 
+ssh ssh <username>@iridis4_a.soton.ac.uk
+ssh ldjb1g15@iridis4_a.soton.ac.uk
+ls
+du 
+du --max-depth=1
+du --max-depth=1 -h
+pacman -Q python
+vim ~/.bash_aliases 
+ipython
+ipython
+ipython
+glim
+clear
 ls -la
+cd ../../..
+ls
+cd ..
+ls
+scp -r codebase ldjb1g15@iridis4_a.soton.ac.uk:/home/ldjb1g15/
+glim
 vim batch_gen_phase.py 
+vim batch_gen_phase.py 
+vim 3d_visualisation.py
+glim
+vim tools/functions/functions_
+vim tools/functions/functions_list.py 
+vim tools/functions/glim_slc.py 
+vim tools/output_parse.py 
+glim
+vim tools/functions/functions_
+vim tools/functions/functions_list.py 
+glim
+vim tools/functions/horizons_interface.py 
+cd /home/ldjb/codebase/data_archive/GLIMMA_data/pos_dir/
+rm *.txt horz_dir/*.txt sgp4_dir/sgp4_data.txt 
+ipython
+rm *.txt horz_dir/*.txt sgp4_dir/sgp4_data.txt 
+rm *.txt horz_dir/*.txt sgp4_dir/sgp4_data.txt 
+rm *.txt horz_dir/*.txt sgp4_dir/sgp4_data.txt 
+glim
+rm *.txt horz_dir/*.txt sgp4_dir/sgp4_data.txt 
+rm *.txt horz_dir/*.txt sgp4_dir/*.txt
+glimdata
+cd pos_dir/
+rm *.txt horz_dir/*.txt sgp4_dir/*.txt
+glim
+cd tools/functions/
 ls
+vim glim_slc.py 
+glim
+vim GLIMMA.py 
+glim
+vim front_casefile_GLIMMA.py 
+glim
+cd ../spacetrack_interface/
+ls
+cd functions/
+ls
+cd ..
+ls
+rm -r functions/
 ls -la
-cd tools/
 ls
+vim data_request.py
+glim
+vim tools/functions/spacetrack_interface.py
 ls -la
 cd ..
-vim GLIMMA.py 
+ls
+rm -r spacetrack_interface/
+cd GLIMMA/
+ls
+ls -al
+ls tools/
+vim tools/geom_plotter.py 
+ls -la
+vim brdf_gen.py 
+vim tools/geom_plotter.py 
+vim tools/geom_plotter.py 
+ranger
+cd ../clustering/
+ls
+vim clustering_test.py 
+vim time_series_cluster.py 
+glim
+cd ../clustering/
+vim time_series_cluster.py 
+cd /home/ldjb/codebase/data_archive/GLIMMA_data/pos_dir/
+ls
+rm *_1440_*
+rm *_1441_*
+rm *-14_*
+ls -la
+ls -l
+rm *_43201_*
+cd /home/ldjb/codebase/data_archive/GLIMMA_data/pos_dir/sgp4_dir/
+ls
+rm *_43201_*
+rm *_1441_*
+cd ../horz_dir/
+ls
+rm *_1441_*
+rm *_43201_*
+rm *-14_*
+glim
+vim tools/functions/functions_list.py 
+glim
+vim tools/functions/functions_list.py 
+vim tools/functions/horizons_interface.py 
+vim tools/functions/functions_transform.py 
+vim tools/functions/functions_transform.py 
+glim
+vim tools/functions/glim_slc.py 
+vim tools/functions/functions_list.py 
+ls -la
+vim tools/functions/glim_transform.py 
+vim tools/functions/glim_slc.py 
 glim
 ls -la
 vim front_casefile_GLIMMA.py 
-glim
-vim brdf_gen.py 
-glim
-vim tools/functions/functions_list.py 
-glim
-vim glim_render.py 
-pyenv
-glim
-python3 glim_render_orb.py 
-exit
-cd /home/ldjb/codebase/data_archive/GLIMMA_data/graphics_dir/render_dir/image_files/
-feh
-ffmpeg -framerate 10 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p ../cylinder.mp4
-glim
-vim tools/functions/sofa_interface.py 
-cd tools/
-ls
-cd functions/
-ls
-vim horizons_interface.py 
-ls
-vim functions_list.py 
-ls
-vim horizons_interface.py 
-vim functions_list.py 
-vim functions_transform.py 
-vim glim_transform.py 
-vim functions_transform.py 
-vim glim_transform.py 
-vim functions_transform.py 
-vim glim_transform.py 
-vim functions_transform.py 
-vim functions_list.py 
-vim functions_transform.py 
-vim functions_list.py 
-vim functions_transform.py 
-vim functions_list.py 
-vim horizons_interface.py 
-vim functions_list.py 
-vim horizons_interface.py 
-vim functions_list.py 
-vim horizons_interface.py 
-vim functions_list.py 
-glim
-ls
-vim access.py
-vim access.py
-vim tools/functions/functions_list.py 
-vim tools/functions/horizons_interface.py 
-vim access.py 
-vim tools/functions/horizons_interface.py 
-vim tools/functions/functions_list.py 
-vim tools/functions/functions_transform.py 
-vim tools/functions/horizons_interface.py 
-vim access.py 
-vim tools/functions/functions_list.py 
-vim tools/functions/functions_transform.py 
-vim tools/functions/functions_list.py 
-vim tools/functions/functions_list.py 
-vim tools/file_generation/case_generation.py 
-vim tools/functions/functions_list.py 
-vim tools/functions/glim_slc.py 
-vim tools/functions/functions_transform.py 
-vim tools/functions/glim_slc.py 
-vim tools/functions/functions_list.py 
-vim tools/functions/functions_transform.py 
-vim tools/functions/glim_slc.py 
-clear
-vim access.py 
-rm access.py 
-vim access_GLIMMA.py 
-vim tools/functions/functions_transform.py
-vim tools/functions/functions_list.py 
-vim access_GLIMMA.py 
-vim access_GLIMMA.py 
-glim
-python3 glim_render.py 
-pyenv
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-python3 glim_render.py 
-glim
-vim glim_render.py 
-glim
-ls -la
-vim tools/functions/functions_list.py 
-vim tools/functions/functions_transform.py 
-glim
-ls -la
-vim bdrf_gen.py
-ls
-vim glim_render_orb.py 
-cp glim_render_orb.py glim_render
-mv glim_render glim_render.py
-vim glim_render.py 
-vim glim_render.py 
-vim tools/distance_plotter_combined.py 
-vim bdrf_gen.py 
-vim access_GLIMMA.py 
-vim glim_render.py 
-vim glim_render_orb.py 
-vim GLIMMA.py 
-glim
-vim glim_render.py 
-glim
-vim glim_render_orb.py 
-glim
-vim tools/geom_plotter.py 
-glim
-vim tools/functions/functions_list.py 
-glim
-cd ../geom_generation/
-ls
-vim sl-8.py 
-rm sl-8.py 
-ls -la
-vim delta_4.py 
-rm delta_4.py 
-ls -la
-vim cylinder_gen.py 
-glim
-ls
-cd ../geom_generation/
-ls
-vim stl_combine.py
-cp stl_combine.py delta_4.py
-cp stl_combine.py sl-8.py
-vim sl-8.py 
-vim cylinder_gen.py 
-vim sl-8.py 
-ls -la
-rm stl_combine.py 
-cp sl8_gen.py delta_iv_gen.py
-vim delta_iv_gen.py 
-vim sl8_gen.py 
-glim
-ls
-cd ../geom_generation/
-ls
-vim cylinder_gen.py 
-ls
-vim test.py
-vim cylinder_gen.py 
-vim delta_4.py 
-cp cylinder_gen.py delta_4_gen.py 
-vim delta_4_gen.py 
-ls
-mv delta_4_gen.py sl8_gen.py 
-vim sl8_gen.py 
-ls
-vim functions_geom_gen.py
-vim delta_iv_gen.py 
-glim
-ls -la
-cd ..
-ls
-cd clustering/
-ls
-rm bdrf_download.py 
-vim clustering_test.py 
-vim time_series_cluster.py
-glim
-vim tools/geom_plotter.py 
-glim
-cd ../geom_generation/
-ks]
-ls
-vim cylinder_gen.py 
-glim
-ls
-cd ..
-ls
-cd spacetrack_interface/
-ls
-ls functions/
-rm Untitled.ipynb 
-vim data_request.py 
-ls
-vim data_download.py 
-ls
-glim
-cd ../geom_generation/
-ls
-vim test.py 
-cd /home/ldjb/codebase/data_archive/GLIMMA_data/graphics_dir/render_dir/image_files/
-ffmpeg -framerate 10 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p ../orb.mp4
-ffmpeg -framerate 10 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p ../sl8.mp4
-ffmpeg -framerate 10 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p ../sl8.mp4
-glim
-ls -la
-vim brdf_gen.py 
-vim brdf_gen.py 
-glim
-vim glim_render.py 
-glimdata
-ls
-cd ..
-ls
-zip -r GLIMMA_data/ zipped_data.zip
-zip -r zipped_data.zip GLIMMA_data/
-glim
-vim front_tle_GLIMMA.py 
-ls -la
-cd tools/
-ls -la
-cd functions/
-ls -la
-cd ../..
-ls
-vim front_tle_GLIMMA.py 
-cp front_tle_GLIMMA.py access_GLIMMA.py
-vim access_GLIMMA.py 
-vim front_tle_GLIMMA.py 
-cp front_tle_GLIMMA.py observatory_GLIMMA.py 
-vim observatory_GLIMMA.py 
-vim access_GLIMMA.py 
-vim observatory_GLIMMA.py 
-glim
-vim access_GLIMMA.py 
-cd /home/ldjb/codebase/data_archive/paper_data/pos_dir/
-ls -la
-glim
-pyenv
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-python3 hilbert_analysis.py 
-ranger
-ls -la
-glim
-ls -la
-clear
-ls -la
-cd ../geom_generation/
-ls
-cp delta_iv_gen.py box_gen.py
-vim box_gen.py 
-cp box_gen.py ../GLIMMA/
-glim
-vim box_gen.py 
-glim
-cd ../geom_generation/
-ls
-vim geom_gen.py 
-vim geom_gen.py 
-vim delta_iv_gen.py 
-vim functions_geom_gen.py 
-vim delta_iv_gen.py 
-ls
-vim test.py 
-vim replaceplace.py
-ls
-ranger
-ranger
-man zip
-cd codebase/data_archive/
-sl
-ls
-cd codebase/
-ls
-cd data_archive/
-ls
-zip -r zipped_data.zip
-zip -r zipped_data.zip GLIMMA_data/
-ls
-rm zipped_data.zip 
-ls
-zip -r zipped_data.zip GLIMMA_data/
-glim
-ls -la
-cd tools/
-ls
-vim functions/functions_list.py 
-glim
-glim
-vim wallpaper_set.sh 
-ls
-clear
-ls
-cd i3/
-ls /home/ldjb/codebase/data_archive/GLIMMA_data/geometry_dir/geom_dir/cylinder/cylinder.bdrf
-ls /home/ldjb/codebase/data_archive/GLIMMA_data/geometry_dir/geom_dir/cylinder/
-glim
-clear
-pyenv
-python3 observatory_GLIMMA.py 
-python3 observatory_GLIMMA.py 
-python3 observatory_GLIMMA.py 
-ls
-ls /home/ldjb/codebase/data_archive/GLIMMA_data/geometry_dir/geom_dir/cylinder/
-python3 observatory_GLIMMA.py 
-python3 observatory_GLIMMA.py 
-python3 observatory_GLIMMA.py 
-python3 observatory_GLIMMA.py  
-glim
-vim batch_gen_phase.py 
-glim
-vim glim_render_orb.py 
-glim
-vim batch_gen_phase.py 
-ranger
-glimdata
-ls
-rm pos_dir/*.txt pos_dir/horz_dir/*txt pos_dir/sgp4_dir/sgp4_data.txt 
+cp front_casefile_GLIMMA.py front1_casefile_GLIMMA.py 
+cp front1_casefile_GLIMMA.py front2_casefile_GLIMMA.py 
+cp front1_casefile_GLIMMA.py front3_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front3_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front2_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front2_casefile_GLIMMA.py 
+vim front3_casefile_GLIMMA.py 
+vim front2_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front1_casefile_GLIMMA.py 
+vim front2_casefile_GLIMMA.py 
