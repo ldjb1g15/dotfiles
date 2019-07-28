@@ -9,7 +9,12 @@ Xft*dpi:                96
 Xft*antialias:          true
 Xft*hinting:            full
 
-urxvt*font: xft:Droid\ Sans\ Mono:pixelsize=14, xft:FontAwesome:pixelsize=18, DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=24;0
+#define fonts \
+	xft:Droid\ Sans\ Mono:pixelsize=14, \
+	xft:DejaVu\ Sans\ \Mono\ for\ Powerline:pixelsize=12, \
+	xft:FontAwesome:pixelsize=12, \
+
+urxvt*font: fonts
 
 ! special
 *.foreground:   #dedede
@@ -52,7 +57,7 @@ urxvt*font: xft:Droid\ Sans\ Mono:pixelsize=14, xft:FontAwesome:pixelsize=18, De
 rofi.width: 60
 rofi.lines: 5
 rofi.columns: 2
-rofi.font: Noto Sans 14
+rofi.font: Droid Sans 14
 rofi.bw: 0
 rofi.padding: 400
 rofi.eh: 1

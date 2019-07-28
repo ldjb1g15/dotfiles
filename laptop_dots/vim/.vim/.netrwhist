@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/ldjb/test'
 let g:netrw_dirhist_2='/home/ldjb/linux_config/stow/uni_dots'
 let g:netrw_dirhist_3='/home/ldjb/linux_config/stow/uni_dots/bash'
+let g:netrw_dirhist_4='/home/ldjb/.config/rofi'
+let g:netrw_dirhist_5='/usr/share/X11/xorg.conf.d'

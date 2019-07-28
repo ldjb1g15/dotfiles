@@ -29,5 +29,8 @@ setxkbmap gb
 
 # start environment
 xbindkeys
+
+xrandr --auto
+
 exec compton &
 exec i3

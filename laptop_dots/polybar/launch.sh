@@ -17,11 +17,11 @@ export FILE_LABEL="%mountpoint%:  %{F$color7}%percentage_used%%%{F-}"
 # CPU
 export CPU_LABEL="CPU %{F$color7}[%percentage%%]%{F-}"
 # Date
-export DATE_LABEL="  | %date% %{F$color7}%time%%{F-}"
+export DATE_LABEL="  | %date% %{F$color7}%time%%{F-}"
 # Memory
 export MEM_LABEL="RAM %{F$color7}[%percentage_used%%]%{F-}"
 # Network
-export NET_LABEL="%{F$color3}  %{F-} %essid% %local_ip%"
+export NET_LABEL="%essid% %local_ip% %{F$color2}  %{F-}"
 # Pulseaudio
 export PULSE_LABEL="%{F$color7} %{F-} %{F$color5} %{F-}"
 # Battery
@@ -37,5 +37,6 @@ export BACK_COL="$alpha_val$rgb_str"
 echo $BACK_COL
 
 # Launch the example bar
-polybar left_bar &
-polybar center_bar &
+polybar bottom_bar &
+polybar top_bar &
+# polybar i3_bar &

@@ -89,8 +89,8 @@ client.unfocused         	$colour_0	$colour_0 	$colour_white 	$colour_white
 client.urgent            	$colour_0	$colour_1 	$colour_white	$colour_white  
 
 # Gaps
-gaps inner 20
-gaps outer 30
+gaps inner 10
+gaps outer 10
 # smart_gaps on
 
 ####################################################################################################
@@ -129,16 +129,13 @@ bindsym $mod+Shift+Tab workspace prev
 assign [class="Firefox"] $ws0
 
 # Open specific applications in floating mode
-for_window [class="Blueman-manager"] floating enable border pixel 0
-for_window [title="alsamixer"] floating enable border pixel 0
-for_window [class="Clipgrab"] floating enable
-for_window [title="File Transfer*"] floating enable
-for_window [class="GParted"] floating enable border normal
-for_window [class="Pavucontrol"] floating enable border pixel 0
-for_window [class="feh"] floating enable border pixel 0
+for_window [class="Blueman-manager"] floating enable border pixel 0 resize set 600 450
+for_window [class="Pavucontrol"] floating enable border pixel 0 resize set 800 600
+for_window [class="feh"] floating enable border pixel 5 resize set 1000 1000
 for_window [class="vlc"] floating enable border pixel 0
-for_window [class="Lxappearance"] floating enable border pixel 0
-for_window [class="Wpg"] floating enable border pixel 0
+for_window [class="Lxappearance"] floating enable border pixel 0 resize set 800 600
+for_window [class="Wpg"] floating enable border pixel 0 resize set 800 600
+for_window [class="Nvidia-settings"] floating enable border pixel 0 resize set 1000 750
 
 # Default no boarder for i3-open
 default_border pixel 0
@@ -237,6 +234,12 @@ mode "resize" {
         bindsym Down resize grow height 2 px or 2 ppt
         bindsym Up resize shrink height 2 px or 2 ppt
         bindsym Right resize grow width 2 px or 2 ppt
+
+        # These bindings trigger as soon as you enter the resize mode
+        bindsym Shift+Left resize shrink width 20 px or 20 ppt
+        bindsym Shift+Down resize grow height 20 px or 20 ppt
+        bindsym Shift+Up resize shrink height 20 px or 20 ppt
+        bindsym Shift+Right resize grow width 20 px or 20 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"

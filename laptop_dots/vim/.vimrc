@@ -30,6 +30,11 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
+
+set shiftwidth=4
+set tabstop=4
+
+
 " General Settings
 set cmdheight=2
 set laststatus=2
