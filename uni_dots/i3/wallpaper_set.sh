@@ -1,7 +1,7 @@
 !#/bin/bash
 
 # Generate pywal colour scheme
-wal -i "$HOME/.config/i3/Wallpapers" -n
+wal -i "$HOME/Pictures/Wallpapers/current_wallpapers" -n
 
 # Set wallpaper from wal image
 feh --bg-fill --no-xinerama $(< "${HOME}/.cache/wal/wal")

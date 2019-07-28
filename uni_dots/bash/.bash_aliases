@@ -9,6 +9,7 @@ alias syncode='rsync -ah --info=progress2 /home/ldjb/codebase/ /media/ldjb/LDJBH
 alias sources='cd ~/Documents/PhD/source_material'
 alias ldjbhd='cd /media/ldjb/LDJBHD/'
 
+alias stowdir='cd ~/linux_config/stow'
 alias gitdir='cd ~/codebase/git_dir'
 alias pydir='cd ~/codebase/git_dir/python/LCG'
 

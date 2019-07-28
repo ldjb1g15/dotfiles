@@ -155,6 +155,9 @@ for_window [class="Pavucontrol"] floating enable border pixel 0
 for_window [class="feh"] floating enable border pixel 0
 for_window [class="vlc"] floating enable border pixel 0
 for_window [class="Matplotlib"] floating enable border normal
+for_window [class="Lxappearance"] floating enable border pixel 0
+for_window [class="Wpg"] floating enable border pixel 0
+for_window [class="MATLAB R2019a - academic use"] floating enable border pixel 0
 
 # Default no boarder for i3-open
 default_border pixel 0
