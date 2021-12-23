@@ -41,11 +41,9 @@ alpha_val="E6"
 export BACK_COL="$alpha_val$rgb_str"
 echo $BACK_COL
 
-# Launch the example bar
-polybar time_bar_left &
-# polybar left &
-# polybar time_bar_main &
-polybar main &
+# launch bars
+polybar time_bar &
 polybar vol_bar &
-# polybar time_bar_right &
-# polybar right &
+polybar main &
+polybar right_bot &
+polybar right_top &

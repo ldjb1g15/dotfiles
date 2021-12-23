@@ -11,12 +11,12 @@ alias syncode='rsync -ah --info=progress2 /home/ldjb/codebase/ /media/ldjb/LDJBH
 alias sources='cd ~/Documents/PhD/source_material'
 alias ldjbhd='cd /media/ldjb/LDJBHD/'
 
-alias gitdir='cd ~/codebase/git_dir'
-alias pydir='cd ~/codebase/git_dir/python/LCG'
+alias gitdir='cd ~/Documents/PhD/codebase/git_dir'
+alias pydir='cd ~/Documents/PhD/codebase/git_dir/python/LCG'
 
-alias glim='cd ~/codebase/git_dir/python/GLIMMA'
-alias glimdata='cd ~/codebase/data_archive/GLIMMA_data/'
-alias paperdata='cd ~/codebase/data_archive/paper_data/'
+alias glim='cd ~/Documents/PhD/codebase/git_dir/python/GLIMMA'
+alias glimdata='cd ~/Documents/PhD/codebase/data_archive/GLIMMA_data/'
+alias paperdata='cd ~/Documents/PhD/codebase/data_archive/paper_data/'
 
 # linux config
 alias stowdir='cd ~/linux_config/stow'

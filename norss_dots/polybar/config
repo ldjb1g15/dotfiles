@@ -41,16 +41,16 @@ margin-bottom = 0
 margin-top = 100
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;	BAR_LEFT
+;;;	BAR_RIGHT_BOT
 
-[bar/left]
+[bar/right_bot]
 
 ; Colours
 background = ${env:BACK_COL}
 foreground = ${colors.foreground}
 
 ; Bar Display Settings
-monitor = DP-0
+monitor = HDMI-0
 monitor-strict = false
 
 override-redirect = True
@@ -58,9 +58,9 @@ wm-restack = i3
 bottom = true
 fixed-center = true
 
-width = 500
+width = 80%
 height = 25
-offset-x = 45%
+offset-x = 10%
 offset-y = 10
 
 radius = 0.0
@@ -84,7 +84,81 @@ font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=24;0
 
 ; Module Settings
 modules-left = endcapleft
-modules-center = cpu spacer memory
+modules-center = cpu
+modules-right = endcapright2
+
+separator = 
+spacing = 2
+; dim-value = 0.8
+
+wm-name = i3
+
+; tray-position = 
+; tray-detached = false
+; tray-maxsize = 16
+; tray-transparent = false
+; tray-background = 
+; tray-offset-x = 0
+; tray-offset-y = 0
+
+; tray-padding = 0
+; tray-scale = 1.0
+; enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	BAR_RIGHT_TOP
+
+[bar/right_top]
+
+; Colours
+background = ${env:BACK_COL}
+foreground = ${colors.foreground}
+
+; Bar Display Settings
+monitor = HDMI-0
+monitor-strict = false
+
+override-redirect = True
+wm-restack = i3
+bottom = false
+fixed-center = true
+
+width = 30%
+height = 25
+offset-x = 35%
+offset-y = 10
+
+radius = 0.0
+
+line-size = 5
+line-color = #FFFFFF
+
+border-size = 0
+border-color = #000000000
+padding-right = 0
+padding-left = 0
+
+module-margin = 0
+
+; Font Settings
+font-0 = IBM\ 3270:size=12;1
+font-1 = FontAwesome:style=Regular:pixelsize=12;2
+font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
+font-3 = Monospace:style=Regular:pixelsize=17;0
+font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=24;0
+
+; Module Settings
+modules-left = endcapleft2
+modules-center = memory
 modules-right = endcapright
 
 separator = 
@@ -124,7 +198,7 @@ background = ${env:BACK_COL}
 foreground = ${colors.foreground}
 
 ; Bar Display Settings
-monitor = HDMI-0
+monitor = DP-2
 monitor-strict = false
 
 override-redirect = True
@@ -132,9 +206,9 @@ wm-restack = i3
 bottom = true
 fixed-center = true
 
-width = 350
+width = 26%
 height = 25
-offset-x = 41%
+offset-x = 37%
 offset-y = 10
 
 radius = 0.0
@@ -189,79 +263,6 @@ double-click-left =
 double-click-middle =
 double-click-right =
 
-; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; ;;;	BAR_RIGHT
-; 
-; [bar/right]
-; 
-; ; Colours
-; background = ${env:BACK_COL}
-; foreground = ${colors.foreground}
-; 
-; ; Bar Display Settings
-; monitor = DP-0
-; monitor-strict = false
-; 
-; override-redirect = True
-; wm-restack = i3
-; bottom = true
-; fixed-center = true
-; 
-; width = 600
-; height = 25
-; offset-x = 10%
-; offset-y = 10
-; 
-; radius = 0.0
-; 
-; line-size = 5
-; line-color = #FFFFFF
-; 
-; border-size = 0
-; border-color = 000000000
-; padding-right = 0
-; padding-left = 0
-; 
-; module-margin = 0
-; 
-; ; Font Settings
-; font-0 = xos4\ Terminess\ Powerline:size=14;1
-; font-1 = FontAwesome:style=Regular:pixelsize=12;2
-; font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
-; font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
-; font-4 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=10;0
-; 
-; ; Module Settings
-; modules-left = endcapleft
-; modules-center = network spacer filesystem
-; modules-right = endcapright
-; separator = 
-; spacing = 2
-; ; dim-value = 0.8
-; 
-; wm-name = i3
-; 
-; tray-position = 
-; tray-detached = false
-; tray-maxsize = 16
-; tray-transparent = false
-; tray-background = ${env:BACK_COL}
-; tray-offset-x = 0
-; tray-offset-y = 0
-; 
-; tray-padding = 0
-; tray-scale = 1.0
-; enable-ipc = false
-; 
-; click-left = 
-; click-middle = 
-; click-right =
-; scroll-up =
-; scroll-down =
-; double-click-left =
-; double-click-middle =
-; double-click-right =
-; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;	VOLUME BAR
 
@@ -342,7 +343,7 @@ double-click-right =
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;	TIME_BAR - LEFT
 
-[bar/time_bar_left]
+[bar/time_bar]
 
 ; Colours
 background = ${env:BACK_COL}
@@ -412,154 +413,6 @@ double-click-left =
 double-click-middle =
 double-click-right =
 
-; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; ;;;	TIME_BAR - MAIN
-; 
-; [bar/time_bar_main]
-; 
-; ; Colours
-; background = ${env:BACK_COL}
-; foreground = ${colors.foreground}
-; 
-; 
-; ; Bar Display Settings
-; monitor = DVI-D-0
-; monitor-strict = false
-; 
-; override-redirect = True
-; wm-restack = i3
-; bottom = true
-; fixed-center = true
-; 
-; width = 300
-; height = 25
-; offset-x = 10%
-; offset-y = 10
-; 
-; radius = 0.0
-; 
-; line-size = 5
-; line-color = #FFFFFF
-; 
-; border-size = 0
-; border-color = 000000000
-; padding-right = 0
-; padding-left = 0
-; 
-; module-margin = 0
-; 
-; ; Font Settings
-; font-0 = xos4\ Terminess\ Powerline:size=14;1
-; font-1 = FontAwesome:style=Regular:pixelsize=12;2
-; font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
-; font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
-; font-4 = font-logos:pixelsize=17;4
-; 
-; ; Module Settings
-; modules-left = endcapleft
-; modules-center = date
-; modules-right = endcapright
-; separator = 
-; spacing = 0
-; ; dim-value = 0.8
-; 
-; wm-name = i3
-; 
-; tray-position = 
-; tray-detached = false
-; tray-maxsize = 16
-; tray-transparent = false
-; tray-background = ${env:BACK_COL}
-; tray-offset-x = 0
-; tray-offset-y = 0
-; 
-; tray-padding = 0
-; tray-scale = 1.0
-; enable-ipc = false
-; 
-; click-left = 
-; click-middle = 
-; click-right =
-; scroll-up =
-; scroll-down =
-; double-click-left =
-; double-click-middle =
-; double-click-right =
-; 
-; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; ;;;	TIME_BAR - RIGHT
-; 
-; [bar/time_bar_right]
-; 
-; ; Colours
-; background = ${env:BACK_COL}
-; foreground = ${colors.foreground}
-; 
-; 
-; ; Bar Display Settings
-; monitor = DP-0
-; monitor-strict = false
-; 
-; override-redirect = True
-; wm-restack = i3
-; bottom = true
-; fixed-center = false
-; 
-; width = 300
-; height = 25
-; offset-x = 10%
-; offset-y = 10
-; 
-; radius = 0.0
-; 
-; line-size = 5
-; line-color = #FFFFFF
-; 
-; border-size = 0
-; border-color = 000000000
-; padding-right = 0
-; padding-left = 0
-; 
-; module-margin = 0
-; 
-; ; Font Settings
-; font-0 = xos4\ Terminess\ Powerline:size=14;1
-; font-1 = FontAwesome:style=Regular:pixelsize=12;2
-; font-2 = Inconsolata\ for\ Powerline:pixelsize=12;0
-; font-3 = DejaVu\ Sans\ Mono\ for\ Powerline:style=Regular:pixelsize=17;4
-; font-4 = font-logos:pixelsize=17;4
-; 
-; ; Module Settings
-; modules-left = endcapleft
-; modules-center = date
-; modules-right = endcapright
-; separator = 
-; spacing = 10
-; ; dim-value = 0.8
-; 
-; wm-name = i3
-; 
-; tray-position = 
-; tray-detached = false
-; tray-maxsize = 16
-; tray-transparent = false
-; tray-background = ${env:BACK_COL}
-; tray-offset-x = 0
-; tray-offset-y = 0
-; 
-; tray-padding = 0
-; tray-scale = 1.0
-; enable-ipc = false
-; 
-; click-left = 
-; click-middle = 
-; click-right =
-; scroll-up =
-; scroll-down =
-; double-click-left =
-; double-click-middle =
-; double-click-right =
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;	ENDCAP - LEFT
 
@@ -578,6 +431,17 @@ content-background = #00000000
 type = custom/text
 
 content = ""
+content-font = 2
+content-foreground = ${env:BACK_COL}
+content-background = #00000000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;	ENDCAP - LEFT2
+
+[module/endcapleft2]
+type = custom/text
+
+content = ""
 content-font = 2
 content-foreground = ${env:BACK_COL}
 content-background = #00000000
